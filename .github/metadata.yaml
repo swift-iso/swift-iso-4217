@@ -1,0 +1,11 @@
+# .github/metadata.yaml
+description: "Swift implementation of ISO 4217: Currency codes."
+topics:
+  - standards
+  - iso
+  - iso-4217
+  - currency-codes
+  - internationalization
+homepage: "https://swift-institute.org"
+readme:
+  family: E
