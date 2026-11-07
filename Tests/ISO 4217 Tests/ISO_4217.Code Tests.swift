@@ -45,6 +45,6 @@ struct ISO_4217_Code_Tests {
         let data = try JSONEncoder().encode(ISO_4217.Code.usd)
         #expect(String(decoding: data, as: UTF8.self) == "\"USD\"")
         #expect(try JSONDecoder().decode(ISO_4217.Code.self, from: Data("\"usd\"".utf8)) == .usd)
-        #expect(throws: (any Error).self) { try JSONDecoder().decode(ISO_4217.Code.self, from: Data("\"EURO\"".utf8)) }
+        #expect(throws: (any Swift.Error).self) { try JSONDecoder().decode(ISO_4217.Code.self, from: Data("\"EURO\"".utf8)) }
     }
 }

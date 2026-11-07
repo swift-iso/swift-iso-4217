@@ -1,5 +1,3 @@
-// Generated from ISO 4217 list one, published 2026-09-17 by SIX, the maintenance agency.
-
 extension ISO_4217.Code {
     internal static let table: [ISO_4217.Code: Entry] = [
         .init(unchecked: "AED"): .init(numeric: "784", minorUnits: 2, name: "UAE Dirham"),

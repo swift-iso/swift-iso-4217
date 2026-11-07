@@ -1,5 +1,3 @@
-// Generated from ISO 4217 list one, published 2026-09-17 by SIX, the maintenance agency.
-
 extension ISO_4217.Code {
     public static let aed = Self(unchecked: "AED")
     public static let afn = Self(unchecked: "AFN")
