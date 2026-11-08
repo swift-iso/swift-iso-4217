@@ -2,7 +2,7 @@ import Foundation
 @testable import ISO_4217
 import Testing
 
-@Suite("ISO_4217.Code")
+@Suite
 struct ISO_4217_Code_Tests {
     @Test
     func `Stores uppercase`() throws {
